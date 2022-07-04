@@ -1,0 +1,25 @@
+General Database Structure
+--------------------------
+
+users
+------
+id name email password role image
+
+categories
+----------
+id name slug 
+
+receipes
+--------
+id category_id uesr_id slug name description image
+
+steps
+-----
+id receipe_id step_num slug name description image
+
+favourites
+----------
+id user_id  receipe_id
+
+
+*be sure to run npm i loader at least twice when you are having the same problem
